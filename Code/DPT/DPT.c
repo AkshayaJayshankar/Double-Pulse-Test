@@ -137,22 +137,25 @@ void main(void)
     // MAX VALUE FOR N IS 255!
     // ==========================================================
 
-    // First Pulse: 2500ns (Target: 2500ns/5ns = 500 cycles)
-    // Since 496 > 255, we must split the delay into two instructions.
-    // 2 cycles (GPIO write) + 250 cycles (RPT 1) + 248 cycles (RPT 2) = 500 cycles.
+    // First Pulse: 2850ns (Target: 2850ns/5ns = 570 cycles)
+    // Since 570 > 255, we must split the delay into three instructions.
+    // 2 cycles (GPIO write) + 250 cycles (RPT 1) + 250 cycles (RPT 2) + 68 cycles (RPT3) = 570 cycles.
     GpioDataRegs.GPASET.bit.GPIO0 = 1;    // Drive High
     __asm(" RPT #248 || NOP");            // Hardware delay 1250ns (250*5ns)
-    __asm(" RPT #246 || NOP");            // Hardware delay 1240ns (248*5ns)
+    __asm(" RPT #248 || NOP");            // Hardware delay 1250ns (250*5ns)
+    __asm(" RPT #66 || NOP");            // Hardware delay 340ns (68*5ns)
 
-    // Intermediate blanking time: 1000ns (Target: 1000ns/5ns = 200 cycles)
-    // Using N=196 (Valid, < 255). 200 - 2 (GPIO) = 198. 198 = N + 2 => N=196.
+    // Intermediate blanking time: 800ns (Target: 800ns/5ns = 160 cycles)
+    // Using N=156 (Valid, < 255). 160 - 2 (GPIO) = 158. 158 = N + 2 => N=156.
     GpioDataRegs.GPACLEAR.bit.GPIO0 = 1;  // Drive Low
-    __asm(" RPT #196 || NOP");            // Hardware delay 990ns
+    __asm(" RPT #156 || NOP");            // Hardware delay 790ns
 
-    // Second Pulse: 500ns (Target: 500ns/5ns = 100 cycles)
-    // Using N=96 (Valid, < 255). 100 - 2 (GPIO) = 98. 98 = N + 2 => N=96.
+    // Second Pulse: 1900ns (Target: 1900ns/5ns = 380 cycles)
+    // Since 380 > 255, we must split the delay into two instructions.
+    // 2 cycles (GPIO write) + 250 cycles (RPT 1) + 128 cycles (RPT2) = 380 cycles
     GpioDataRegs.GPASET.bit.GPIO0 = 1;    // Drive High
-    __asm(" RPT #96 || NOP");             // Hardware delay 490ns
+    __asm(" RPT #248 || NOP");           // Hardware delay 1250ns (250*5ns)
+    __asm(" RPT #126|| NOP");            // Hardware delay 640ns (128*5ns)
 
     // End of sequence: Keep low indefinitely
     GpioDataRegs.GPACLEAR.bit.GPIO0 = 1;  // Drive Low

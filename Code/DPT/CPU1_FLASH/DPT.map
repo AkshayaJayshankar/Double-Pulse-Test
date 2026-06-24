@@ -1,10 +1,10 @@
 ******************************************************************************
              TMS320C2000 Linker PC v25.11.0                    
 ******************************************************************************
->> Linked Mon Jun 22 15:48:34 2026
+>> Linked Wed Jun 24 15:43:03 2026
 
 OUTPUT FILE NAME:   <DPT.out>
-ENTRY POINT SYMBOL: "_c_int00"  address: 00082dac
+ENTRY POINT SYMBOL: "_c_int00"  address: 00082db0
 
 
 MEMORY CONFIGURATION
@@ -23,7 +23,7 @@ PAGE 0:
   RAMGS15               0001b000   00000ff8  00000000  00000ff8  RWIX
   BEGIN                 00080000   00000002  00000002  00000000  RWIX
   FLASHA                00080002   00001ffe  00000000  00001ffe  RWIX
-  FLASHB                00082000   00002000  00000edc  00001124  RWIX
+  FLASHB                00082000   00002000  00000ee0  00001120  RWIX
   FLASHC                00084000   00002000  00000000  00002000  RWIX
   FLASHD                00086000   00002000  0000003f  00001fc1  RWIX
   FLASHE                00088000   00008000  00000000  00008000  RWIX
@@ -661,23 +661,23 @@ UidRegsFile
 *          1    000703c0    00000010     UNINITIALIZED
                   000703c0    00000010     F2837xD_GlobalVariableDefs.obj (UidRegsFile)
 
-.text      0    00082030    00000eb3     
+.text      0    00082030    00000eb7     
                   00082030    00000585     F2837xD_DefaultISR.obj (.text:retain)
                   000825b5    000004ab     F2837xD_SysCtrl.obj (.text)
                   00082a60    00000244     F2837xD_Gpio.obj (.text)
                   00082ca4    00000088     rts2800_fpu32.lib : fs_div28.asm.obj (.text)
-                  00082d2c    00000080     DPT.obj (.text)
-                  00082dac    00000056     rts2800_fpu32.lib : boot28.asm.obj (.text)
-                  00082e02    00000029                       : exit.c.obj (.text)
-                  00082e2b    00000028     F2837xD_PieCtrl.obj (.text)
-                  00082e53    00000026     F2837xD_PieVect.obj (.text)
-                  00082e79    00000024     rts2800_fpu32.lib : cpy_tbl.c.obj (.text)
-                  00082e9d    00000020                       : memcpy.c.obj (.text)
-                  00082ebd    00000012                       : args_main.c.obj (.text)
-                  00082ecf    00000009                       : _lock.c.obj (.text)
-                  00082ed8    00000008     F2837xD_CodeStartBranch.obj (.text)
-                  00082ee0    00000002     rts2800_fpu32.lib : pre_init.c.obj (.text)
-                  00082ee2    00000001                       : startup.c.obj (.text)
+                  00082d2c    00000084     DPT.obj (.text)
+                  00082db0    00000056     rts2800_fpu32.lib : boot28.asm.obj (.text)
+                  00082e06    00000029                       : exit.c.obj (.text)
+                  00082e2f    00000028     F2837xD_PieCtrl.obj (.text)
+                  00082e57    00000026     F2837xD_PieVect.obj (.text)
+                  00082e7d    00000024     rts2800_fpu32.lib : cpy_tbl.c.obj (.text)
+                  00082ea1    00000020                       : memcpy.c.obj (.text)
+                  00082ec1    00000012                       : args_main.c.obj (.text)
+                  00082ed3    00000009                       : _lock.c.obj (.text)
+                  00082edc    00000008     F2837xD_CodeStartBranch.obj (.text)
+                  00082ee4    00000002     rts2800_fpu32.lib : pre_init.c.obj (.text)
+                  00082ee6    00000001                       : startup.c.obj (.text)
 
 .ebss      1    0000a800    00000010     UNINITIALIZED
                   0000a800    00000006     device.obj (.ebss)
@@ -695,12 +695,12 @@ MODULE SUMMARY
        F2837xD_SysCtrl.obj              1305   0                  0                 
        F2837xD_Gpio.obj                 580    0                  0                 
        F2837xD_PieVect.obj              38     448                0                 
-       DPT.obj                          128    0                  0                 
+       DPT.obj                          132    0                  0                 
        F2837xD_PieCtrl.obj              40     0                  0                 
        F2837xD_CodeStartBranch.obj      10     0                  0                 
        F2837xD_usDelay.obj              8      0                  0                 
     +--+--------------------------------+------+------------------+--------------------+
-       Total:                           3522   448                9870              
+       Total:                           3526   448                9870              
                                                                                     
     .\device\
        device.obj                       0      34                 6                 
@@ -728,7 +728,7 @@ MODULE SUMMARY
                                                                                     
        Stack:                           0      0                  256               
     +--+--------------------------------+------+------------------+--------------------+
-       Grand Total:                     3891   888                10142             
+       Grand Total:                     3895   888                10142             
 
 
 GLOBAL DATA SYMBOLS: SORTED BY DATA PAGE
@@ -947,7 +947,7 @@ GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name
 page  address   name                                  
 ----  -------   ----                                  
 abs   ffffffff  .text                                 
-0     00082e02  C$$EXIT                               
+0     00082e06  C$$EXIT                               
 0     00082ca4  FS$$DIV                               
 0     000820ee  _ADCA1_ISR                            
 0     0008236e  _ADCA2_ISR                            
@@ -1108,7 +1108,7 @@ abs   ffffffff  .text
 1     00047000  _Emif1Regs                            
 1     0005f4a0  _Emif2ConfigRegs                      
 1     00047800  _Emif2Regs                            
-0     00082e4a  _EnableInterrupts                     
+0     00082e4e  _EnableInterrupts                     
 1     0000a804  _Example_Fail                         
 1     0000a802  _Example_PassCount                    
 1     0000a800  _Example_Result                       
@@ -1153,8 +1153,8 @@ abs   ffffffff  .text
 0     00008000  _InitFlash                            
 0     00082a60  _InitGpio                             
 0     000825d5  _InitPeripheralClocks                 
-0     00082e2b  _InitPieCtrl                          
-0     00082e53  _InitPieVectTable                     
+0     00082e2f  _InitPieCtrl                          
+0     00082e57  _InitPieVectTable                     
 0     000825b5  _InitSysCtrl                          
 0     000826a6  _InitSysPll                           
 1     00007900  _InputXbarRegs                        
@@ -1264,21 +1264,21 @@ abs   ffffffff  ___c_args__
 abs   ffffffff  ___etext__                            
 abs   ffffffff  ___pinit__                            
 abs   ffffffff  ___text__                             
-0     00082ebd  __args_main                           
+0     00082ec1  __args_main                           
 1     0000a80c  __lock                                
-0     00082ed7  __nop                                 
-0     00082ed3  __register_lock                       
-0     00082ecf  __register_unlock                     
+0     00082edb  __nop                                 
+0     00082ed7  __register_lock                       
+0     00082ed3  __register_unlock                     
 1     00000400  __stack                               
-0     00082ee2  __system_post_cinit                   
-0     00082ee0  __system_pre_init                     
+0     00082ee6  __system_post_cinit                   
+0     00082ee4  __system_pre_init                     
 1     0000a80e  __unlock                              
-0     00082e02  _abort                                
-0     00082dac  _c_int00                              
-0     00082e79  _copy_in                              
-0     00082e04  _exit                                 
+0     00082e06  _abort                                
+0     00082db0  _c_int00                              
+0     00082e7d  _copy_in                              
+0     00082e08  _exit                                 
 0     00082d2c  _main                                 
-0     00082e9d  _memcpy                               
+0     00082ea1  _memcpy                               
 abs   ffffffff  binit                                 
 0     00082000  cinit                                 
 0     00080000  code_start                            
@@ -1477,21 +1477,21 @@ page  address   name
 0     00082c86  _GPIO_WritePin                        
 0     00082ca4  FS$$DIV                               
 0     00082d2c  _main                                 
-0     00082dac  _c_int00                              
-0     00082e02  C$$EXIT                               
-0     00082e02  _abort                                
-0     00082e04  _exit                                 
-0     00082e2b  _InitPieCtrl                          
-0     00082e4a  _EnableInterrupts                     
-0     00082e53  _InitPieVectTable                     
-0     00082e79  _copy_in                              
-0     00082e9d  _memcpy                               
-0     00082ebd  __args_main                           
-0     00082ecf  __register_unlock                     
-0     00082ed3  __register_lock                       
-0     00082ed7  __nop                                 
-0     00082ee0  __system_pre_init                     
-0     00082ee2  __system_post_cinit                   
+0     00082db0  _c_int00                              
+0     00082e06  C$$EXIT                               
+0     00082e06  _abort                                
+0     00082e08  _exit                                 
+0     00082e2f  _InitPieCtrl                          
+0     00082e4e  _EnableInterrupts                     
+0     00082e57  _InitPieVectTable                     
+0     00082e7d  _copy_in                              
+0     00082ea1  _memcpy                               
+0     00082ec1  __args_main                           
+0     00082ed3  __register_unlock                     
+0     00082ed7  __register_lock                       
+0     00082edb  __nop                                 
+0     00082ee4  __system_pre_init                     
+0     00082ee6  __system_post_cinit                   
 0     00086000  _RamfuncsLoadStart                    
 0     0008603f  _RamfuncsLoadEnd                      
 0     00090000  _PieVectTableInit                     
