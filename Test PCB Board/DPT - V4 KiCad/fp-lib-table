@@ -1,0 +1,12 @@
+(fp_lib_table
+  (lib (name 90151-2104)(type Legacy)(uri "${KIPRJMOD}/LIB/Gate driver connectors/90151-2104.mod")(options "")(descr ""))
+  (lib (name RS01060R00FB12)(type Legacy)(uri "${KIPRJMOD}/LIB/Charging resistor/RS01060R00FB12.mod")(options "")(descr ""))
+  (lib (name EZP-V80406MTS)(type Legacy)(uri "${KIPRJMOD}/LIB/DC Link capacitor/EZP-V80406MTS.mod")(options "")(descr ""))
+  (lib (name IKW15N120H3)(type Legacy)(uri ${KIPRJMOD}/LIB/IGBT/IKW15N120H3.mod)(options "")(descr ""))
+  (lib (name 796690-2)(type Legacy)(uri ${KIPRJMOD}/LIB/Connector/796690-2.mod)(options "")(descr ""))
+  (lib (name 2-1437667-4)(type Legacy)(uri ${KIPRJMOD}/LIB/TE/2-1437667-4.mod)(options "")(descr ""))
+  (lib (name 892-70-020-20-001101)(type Legacy)(uri ${KIPRJMOD}/LIB/Connectors/892-70-020-20-001101.mod)(options "")(descr ""))
+  (lib (name Cap)(type KiCad)(uri ${KIPRJMOD}/LIB/Cap.pretty)(options "")(descr ""))
+  (lib (name "DPT - V3")(type KiCad)(uri "E:/Aditya M.S System/Hardware/DPT/DPT_PCB/DPT - V3")(options "")(descr "")(disabled))
+  (lib (name 105-2210-201)(type Legacy)(uri "${KIPRJMOD}/LIB/Multimeter test point/105-2210-201.mod")(options "")(descr ""))
+)

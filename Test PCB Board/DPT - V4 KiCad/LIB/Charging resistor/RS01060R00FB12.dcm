@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RS01060R00FB12
+D Res Wirewound 60 Ohm 1% 10W +/-20ppm/C Ceramic Hi Temp Sil AXL Thru-Hole Bulk
+K
+F https://www.vishay.com/docs/30204/rsns.pdf
+$ENDCMP
+#
+#End Doc Library

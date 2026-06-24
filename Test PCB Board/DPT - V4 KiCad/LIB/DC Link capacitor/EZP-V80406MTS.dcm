@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EZP-V80406MTS
+D CAP FILM 40UF 10% 800V RADIAL
+K
+F http://industrial.panasonic.com/cdbs/www-data/pdf/RDL0000/RDL0000C251.pdf
+$ENDCMP
+#
+#End Doc Library

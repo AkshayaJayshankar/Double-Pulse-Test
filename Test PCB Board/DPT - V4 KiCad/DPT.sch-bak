@@ -1,0 +1,862 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 "PEG, IIT Dharwad."
+Comment2 "MS, 211021002"
+Comment3 "Aditya.P"
+Comment4 "DPT-Board"
+$EndDescr
+$Comp
+L 90151-2104:90151-2104 J3
+U 1 1 65192C3A
+P 7900 1300
+F 0 "J3" H 8300 1565 50  0000 C CNN
+F 1 "90151-2104" H 8300 1474 50  0000 C CNN
+F 2 "90151-2104:RHDR4W64P254_2X2_493X498X870P" H 8550 1400 50  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/901512104_sd.pdf" H 8550 1300 50  0001 L CNN
+F 4 "Headers & Wire Housings C-Grid PCB Conn DR Vt Tn-A 4Ckt" H 8550 1200 50  0001 L CNN "Description"
+F 5 "8.7" H 8550 1100 50  0001 L CNN "Height"
+F 6 "538-90151-2104" H 8550 1000 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/90151-2104?qs=KUIzHt%2Fe91m8kTEY%252BGMYcg%3D%3D" H 8550 900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 8550 800 50  0001 L CNN "Manufacturer_Name"
+F 9 "90151-2104" H 8550 700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7900 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 90151-2104:90151-2104 J4
+U 1 1 65190850
+P 7900 2050
+F 0 "J4" H 8300 2315 50  0000 C CNN
+F 1 "90151-2104" H 8300 2224 50  0000 C CNN
+F 2 "90151-2104:RHDR4W64P254_2X2_493X498X870P" H 8550 2150 50  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/901512104_sd.pdf" H 8550 2050 50  0001 L CNN
+F 4 "Headers & Wire Housings C-Grid PCB Conn DR Vt Tn-A 4Ckt" H 8550 1950 50  0001 L CNN "Description"
+F 5 "8.7" H 8550 1850 50  0001 L CNN "Height"
+F 6 "538-90151-2104" H 8550 1750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/90151-2104?qs=KUIzHt%2Fe91m8kTEY%252BGMYcg%3D%3D" H 8550 1650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 8550 1550 50  0001 L CNN "Manufacturer_Name"
+F 9 "90151-2104" H 8550 1450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7900 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 90151-2104:90151-2104 J6
+U 1 1 65190F12
+P 9600 2050
+F 0 "J6" H 10000 2315 50  0000 C CNN
+F 1 "90151-2104" H 10000 2224 50  0000 C CNN
+F 2 "90151-2104:RHDR4W64P254_2X2_493X498X870P" H 10250 2150 50  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/901512104_sd.pdf" H 10250 2050 50  0001 L CNN
+F 4 "Headers & Wire Housings C-Grid PCB Conn DR Vt Tn-A 4Ckt" H 10250 1950 50  0001 L CNN "Description"
+F 5 "8.7" H 10250 1850 50  0001 L CNN "Height"
+F 6 "538-90151-2104" H 10250 1750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/90151-2104?qs=KUIzHt%2Fe91m8kTEY%252BGMYcg%3D%3D" H 10250 1650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 10250 1550 50  0001 L CNN "Manufacturer_Name"
+F 9 "90151-2104" H 10250 1450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9600 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 90151-2104:90151-2104 J2
+U 1 1 65191521
+P 7850 3700
+F 0 "J2" H 8250 3965 50  0000 C CNN
+F 1 "90151-2104" H 8250 3874 50  0000 C CNN
+F 2 "90151-2104:RHDR4W64P254_2X2_493X498X870P" H 8500 3800 50  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/901512104_sd.pdf" H 8500 3700 50  0001 L CNN
+F 4 "Headers & Wire Housings C-Grid PCB Conn DR Vt Tn-A 4Ckt" H 8500 3600 50  0001 L CNN "Description"
+F 5 "8.7" H 8500 3500 50  0001 L CNN "Height"
+F 6 "538-90151-2104" H 8500 3400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/90151-2104?qs=KUIzHt%2Fe91m8kTEY%252BGMYcg%3D%3D" H 8500 3300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 8500 3200 50  0001 L CNN "Manufacturer_Name"
+F 9 "90151-2104" H 8500 3100 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7850 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 90151-2104:90151-2104 J1
+U 1 1 65191C1F
+P 7850 3050
+F 0 "J1" H 8250 3315 50  0000 C CNN
+F 1 "90151-2104" H 8250 3224 50  0000 C CNN
+F 2 "90151-2104:RHDR4W64P254_2X2_493X498X870P" H 8500 3150 50  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/901512104_sd.pdf" H 8500 3050 50  0001 L CNN
+F 4 "Headers & Wire Housings C-Grid PCB Conn DR Vt Tn-A 4Ckt" H 8500 2950 50  0001 L CNN "Description"
+F 5 "8.7" H 8500 2850 50  0001 L CNN "Height"
+F 6 "538-90151-2104" H 8500 2750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/90151-2104?qs=KUIzHt%2Fe91m8kTEY%252BGMYcg%3D%3D" H 8500 2650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 8500 2550 50  0001 L CNN "Manufacturer_Name"
+F 9 "90151-2104" H 8500 2450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 90151-2104:90151-2104 J7
+U 1 1 65192204
+P 9600 3050
+F 0 "J7" H 10000 3315 50  0000 C CNN
+F 1 "90151-2104" H 10000 3224 50  0000 C CNN
+F 2 "90151-2104:RHDR4W64P254_2X2_493X498X870P" H 10250 3150 50  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/901512104_sd.pdf" H 10250 3050 50  0001 L CNN
+F 4 "Headers & Wire Housings C-Grid PCB Conn DR Vt Tn-A 4Ckt" H 10250 2950 50  0001 L CNN "Description"
+F 5 "8.7" H 10250 2850 50  0001 L CNN "Height"
+F 6 "538-90151-2104" H 10250 2750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/90151-2104?qs=KUIzHt%2Fe91m8kTEY%252BGMYcg%3D%3D" H 10250 2650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 10250 2550 50  0001 L CNN "Manufacturer_Name"
+F 9 "90151-2104" H 10250 2450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9600 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 90151-2104:90151-2104 J8
+U 1 1 651928D4
+P 9600 3700
+F 0 "J8" H 10000 3965 50  0000 C CNN
+F 1 "90151-2104" H 10000 3874 50  0000 C CNN
+F 2 "90151-2104:RHDR4W64P254_2X2_493X498X870P" H 10250 3800 50  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/901512104_sd.pdf" H 10250 3700 50  0001 L CNN
+F 4 "Headers & Wire Housings C-Grid PCB Conn DR Vt Tn-A 4Ckt" H 10250 3600 50  0001 L CNN "Description"
+F 5 "8.7" H 10250 3500 50  0001 L CNN "Height"
+F 6 "538-90151-2104" H 10250 3400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/90151-2104?qs=KUIzHt%2Fe91m8kTEY%252BGMYcg%3D%3D" H 10250 3300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 10250 3200 50  0001 L CNN "Manufacturer_Name"
+F 9 "90151-2104" H 10250 3100 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9600 3700
+	1    0    0    -1  
+$EndComp
+Text GLabel 3650 3150 0    50   Input ~ 0
+G1
+Text GLabel 8850 2150 2    50   Input ~ 0
+G1
+Text GLabel 4300 3350 2    50   Input ~ 0
+E1
+Text GLabel 8850 2050 2    50   Input ~ 0
+E1
+Text GLabel 4350 4450 2    50   Input ~ 0
+E2
+Text GLabel 8650 3800 2    50   Input ~ 0
+G2
+Text GLabel 8650 3700 2    50   Input ~ 0
+E2
+Text GLabel 10400 3800 2    50   Input ~ 0
+Desat
+Text GLabel 4400 4050 2    50   Input ~ 0
+Desat
+Wire Wire Line
+	4400 4050 4250 4050
+$Comp
+L power:GND #PWR01
+U 1 1 65199368
+P 7550 1350
+F 0 "#PWR01" H 7550 1100 50  0001 C CNN
+F 1 "GND" H 7555 1177 50  0000 C CNN
+F 2 "" H 7550 1350 50  0001 C CNN
+F 3 "" H 7550 1350 50  0001 C CNN
+	1    7550 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 1300 7900 1350
+Wire Wire Line
+	7550 1350 7900 1350
+Connection ~ 7900 1350
+Wire Wire Line
+	7900 1350 7900 1400
+Wire Wire Line
+	8700 1300 8700 1350
+Wire Wire Line
+	8700 1350 8800 1350
+Wire Wire Line
+	8800 1350 8800 1150
+Connection ~ 8700 1350
+Wire Wire Line
+	8700 1350 8700 1400
+Text GLabel 8800 1150 1    50   Input ~ 0
+Vin
+$Comp
+L power:GND #PWR02
+U 1 1 6519AAA8
+P 7500 3150
+F 0 "#PWR02" H 7500 2900 50  0001 C CNN
+F 1 "GND" H 7505 2977 50  0000 C CNN
+F 2 "" H 7500 3150 50  0001 C CNN
+F 3 "" H 7500 3150 50  0001 C CNN
+	1    7500 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 8750 2900 1    50   Input ~ 0
+Vin
+Wire Wire Line
+	8650 3050 8650 3100
+Wire Wire Line
+	7850 3050 7850 3100
+Wire Wire Line
+	7850 3100 7500 3100
+Wire Wire Line
+	7500 3100 7500 3150
+Connection ~ 7850 3100
+Wire Wire Line
+	7850 3100 7850 3150
+Wire Wire Line
+	8650 3100 8750 3100
+Wire Wire Line
+	8750 3100 8750 2900
+Connection ~ 8650 3100
+Wire Wire Line
+	8650 3100 8650 3150
+$Comp
+L S1751-46R:S1751-46R TP1
+U 1 1 6519C6FC
+P 8050 4650
+F 0 "TP1" H 8342 4915 50  0000 C CNN
+F 1 "S1751-46R" H 8342 4824 50  0000 C CNN
+F 2 "S1751-46R:S175146R" H 8700 4750 50  0001 L CNN
+F 3 "https://cdn.harwin.com/pdfs/S1751R.pdf" H 8700 4650 50  0001 L CNN
+F 4 "EZ_Boardware SMT Test Point 2.0mm high S1751-46R, Brass Grounding Contact Used with Surface Mount, 3.25 x 2 x 1.65" H 8700 4550 50  0001 L CNN "Description"
+F 5 "2" H 8700 4450 50  0001 L CNN "Height"
+F 6 "Harwin" H 8700 4350 50  0001 L CNN "Manufacturer_Name"
+F 7 "S1751-46R" H 8700 4250 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "855-S1751-46R" H 8700 4150 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" H 8700 4050 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 8700 3950 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 8700 3850 50  0001 L CNN "Arrow Price/Stock"
+	1    8050 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L S1751-46R:S1751-46R TP2
+U 1 1 6519E581
+P 8050 5150
+F 0 "TP2" H 8342 5415 50  0000 C CNN
+F 1 "S1751-46R" H 8342 5324 50  0000 C CNN
+F 2 "S1751-46R:S175146R" H 8700 5250 50  0001 L CNN
+F 3 "https://cdn.harwin.com/pdfs/S1751R.pdf" H 8700 5150 50  0001 L CNN
+F 4 "EZ_Boardware SMT Test Point 2.0mm high S1751-46R, Brass Grounding Contact Used with Surface Mount, 3.25 x 2 x 1.65" H 8700 5050 50  0001 L CNN "Description"
+F 5 "2" H 8700 4950 50  0001 L CNN "Height"
+F 6 "Harwin" H 8700 4850 50  0001 L CNN "Manufacturer_Name"
+F 7 "S1751-46R" H 8700 4750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "855-S1751-46R" H 8700 4650 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" H 8700 4550 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 8700 4450 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 8700 4350 50  0001 L CNN "Arrow Price/Stock"
+	1    8050 5150
+	1    0    0    -1  
+$EndComp
+Text GLabel 7950 4650 0    50   Input ~ 0
+G1
+Text GLabel 7950 5150 0    50   Input ~ 0
+E1
+Wire Wire Line
+	8050 4650 7950 4650
+Wire Wire Line
+	7950 5150 8050 5150
+$Comp
+L S1751-46R:S1751-46R TP3
+U 1 1 6519FDD3
+P 9600 4650
+F 0 "TP3" H 9892 4915 50  0000 C CNN
+F 1 "S1751-46R" H 9892 4824 50  0000 C CNN
+F 2 "S1751-46R:S175146R" H 10250 4750 50  0001 L CNN
+F 3 "https://cdn.harwin.com/pdfs/S1751R.pdf" H 10250 4650 50  0001 L CNN
+F 4 "EZ_Boardware SMT Test Point 2.0mm high S1751-46R, Brass Grounding Contact Used with Surface Mount, 3.25 x 2 x 1.65" H 10250 4550 50  0001 L CNN "Description"
+F 5 "2" H 10250 4450 50  0001 L CNN "Height"
+F 6 "Harwin" H 10250 4350 50  0001 L CNN "Manufacturer_Name"
+F 7 "S1751-46R" H 10250 4250 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "855-S1751-46R" H 10250 4150 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" H 10250 4050 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 10250 3950 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 10250 3850 50  0001 L CNN "Arrow Price/Stock"
+	1    9600 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L S1751-46R:S1751-46R TP4
+U 1 1 651A04A6
+P 9600 5150
+F 0 "TP4" H 9892 5415 50  0000 C CNN
+F 1 "S1751-46R" H 9892 5324 50  0000 C CNN
+F 2 "S1751-46R:S175146R" H 10250 5250 50  0001 L CNN
+F 3 "https://cdn.harwin.com/pdfs/S1751R.pdf" H 10250 5150 50  0001 L CNN
+F 4 "EZ_Boardware SMT Test Point 2.0mm high S1751-46R, Brass Grounding Contact Used with Surface Mount, 3.25 x 2 x 1.65" H 10250 5050 50  0001 L CNN "Description"
+F 5 "2" H 10250 4950 50  0001 L CNN "Height"
+F 6 "Harwin" H 10250 4850 50  0001 L CNN "Manufacturer_Name"
+F 7 "S1751-46R" H 10250 4750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "855-S1751-46R" H 10250 4650 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" H 10250 4550 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 10250 4450 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 10250 4350 50  0001 L CNN "Arrow Price/Stock"
+	1    9600 5150
+	1    0    0    -1  
+$EndComp
+Text GLabel 9550 4650 0    50   Input ~ 0
+G2
+Text GLabel 9500 5150 0    50   Input ~ 0
+E2
+Wire Wire Line
+	9600 4650 9550 4650
+Wire Wire Line
+	9600 5150 9500 5150
+Wire Wire Line
+	4400 3850 4250 3850
+Connection ~ 4250 3850
+Wire Wire Line
+	4250 3850 4250 3500
+$Comp
+L S1751-46R:S1751-46R TP8
+U 1 1 651A5A67
+P 4400 4850
+F 0 "TP8" H 4692 5115 50  0000 C CNN
+F 1 "S1751-46R" H 4692 5024 50  0000 C CNN
+F 2 "S1751-46R:S175146R" H 5050 4950 50  0001 L CNN
+F 3 "https://cdn.harwin.com/pdfs/S1751R.pdf" H 5050 4850 50  0001 L CNN
+F 4 "EZ_Boardware SMT Test Point 2.0mm high S1751-46R, Brass Grounding Contact Used with Surface Mount, 3.25 x 2 x 1.65" H 5050 4750 50  0001 L CNN "Description"
+F 5 "2" H 5050 4650 50  0001 L CNN "Height"
+F 6 "Harwin" H 5050 4550 50  0001 L CNN "Manufacturer_Name"
+F 7 "S1751-46R" H 5050 4450 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "855-S1751-46R" H 5050 4350 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" H 5050 4250 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 5050 4150 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 5050 4050 50  0001 L CNN "Arrow Price/Stock"
+	1    4400 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L S1751-46R:S1751-46R TP5
+U 1 1 651A23BE
+P 4400 3850
+F 0 "TP5" H 4692 4115 50  0000 C CNN
+F 1 "S1751-46R" H 4692 4024 50  0000 C CNN
+F 2 "S1751-46R:S175146R" H 5050 3950 50  0001 L CNN
+F 3 "https://cdn.harwin.com/pdfs/S1751R.pdf" H 5050 3850 50  0001 L CNN
+F 4 "EZ_Boardware SMT Test Point 2.0mm high S1751-46R, Brass Grounding Contact Used with Surface Mount, 3.25 x 2 x 1.65" H 5050 3750 50  0001 L CNN "Description"
+F 5 "2" H 5050 3650 50  0001 L CNN "Height"
+F 6 "Harwin" H 5050 3550 50  0001 L CNN "Manufacturer_Name"
+F 7 "S1751-46R" H 5050 3450 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "855-S1751-46R" H 5050 3350 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" H 5050 3250 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 5050 3150 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 5050 3050 50  0001 L CNN "Arrow Price/Stock"
+	1    4400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L S1751-46R:S1751-46R TP7
+U 1 1 651B499C
+P 2650 5150
+F 0 "TP7" V 2896 5278 50  0000 L CNN
+F 1 "S1751-46R" V 2987 5278 50  0000 L CNN
+F 2 "S1751-46R:S175146R" H 3300 5250 50  0001 L CNN
+F 3 "https://cdn.harwin.com/pdfs/S1751R.pdf" H 3300 5150 50  0001 L CNN
+F 4 "EZ_Boardware SMT Test Point 2.0mm high S1751-46R, Brass Grounding Contact Used with Surface Mount, 3.25 x 2 x 1.65" H 3300 5050 50  0001 L CNN "Description"
+F 5 "2" H 3300 4950 50  0001 L CNN "Height"
+F 6 "Harwin" H 3300 4850 50  0001 L CNN "Manufacturer_Name"
+F 7 "S1751-46R" H 3300 4750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "855-S1751-46R" H 3300 4650 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" H 3300 4550 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 3300 4450 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 3300 4350 50  0001 L CNN "Arrow Price/Stock"
+	1    2650 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L S1751-46R:S1751-46R TP6
+U 1 1 651B5931
+P 2650 2300
+F 0 "TP6" V 2988 2172 50  0000 R CNN
+F 1 "S1751-46R" V 2897 2172 50  0000 R CNN
+F 2 "S1751-46R:S175146R" H 3300 2400 50  0001 L CNN
+F 3 "https://cdn.harwin.com/pdfs/S1751R.pdf" H 3300 2300 50  0001 L CNN
+F 4 "EZ_Boardware SMT Test Point 2.0mm high S1751-46R, Brass Grounding Contact Used with Surface Mount, 3.25 x 2 x 1.65" H 3300 2200 50  0001 L CNN "Description"
+F 5 "2" H 3300 2100 50  0001 L CNN "Height"
+F 6 "Harwin" H 3300 2000 50  0001 L CNN "Manufacturer_Name"
+F 7 "S1751-46R" H 3300 1900 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "855-S1751-46R" H 3300 1800 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" H 3300 1700 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 3300 1600 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 3300 1500 50  0001 L CNN "Arrow Price/Stock"
+	1    2650 2300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2650 2500
+Connection ~ 2650 4900
+Wire Wire Line
+	2450 2500 2650 2500
+Wire Wire Line
+	2650 2500 2650 2300
+Wire Wire Line
+	2650 5150 2650 4900
+Wire Wire Line
+	1750 2500 1750 3400
+Wire Wire Line
+	1750 4900 1750 3650
+Wire Wire Line
+	1750 4900 2650 4900
+$Comp
+L Device:R R3
+U 1 1 651BEA66
+P 3850 3350
+F 0 "R3" H 3920 3396 50  0000 L CNN
+F 1 "R" H 3920 3305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3780 3350 50  0001 C CNN
+F 3 "~" H 3850 3350 50  0001 C CNN
+	1    3850 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3500 4250 3500
+Wire Wire Line
+	4350 4450 4250 4450
+Wire Wire Line
+	3800 4700 4250 4700
+Connection ~ 4250 4700
+Wire Wire Line
+	4250 4700 4250 4850
+$Comp
+L EZP-V80406MTS:EZP-V80406MTS C1
+U 1 1 65192E05
+P 2650 3450
+F 0 "C1" V 2854 3588 50  0000 L CNN
+F 1 "EZP-V80406MTS" V 2945 3588 50  0000 L CNN
+F 2 "EZP-V80406MTS:EZPV80406MTS" H 3000 3550 50  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDL0000/RDL0000C251.pdf" H 3000 3450 50  0001 L CNN
+F 4 "CAP FILM 40UF 10% 800V RADIAL" H 3000 3350 50  0001 L CNN "Description"
+F 5 "52" H 3000 3250 50  0001 L CNN "Height"
+F 6 "Panasonic" H 3000 3150 50  0001 L CNN "Manufacturer_Name"
+F 7 "EZP-V80406MTS" H 3000 3050 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 3000 2950 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 3000 2850 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 3000 2750 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 3000 2650 50  0001 L CNN "Arrow Price/Stock"
+	1    2650 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L EZP-V80406MTS:EZP-V80406MTS C2
+U 1 1 651951DC
+P 3100 3450
+F 0 "C2" V 3304 3588 50  0000 L CNN
+F 1 "EZP-V80406MTS" V 3395 3588 50  0000 L CNN
+F 2 "EZP-V80406MTS:EZPV80406MTS" H 3450 3550 50  0001 L CNN
+F 3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDL0000/RDL0000C251.pdf" H 3450 3450 50  0001 L CNN
+F 4 "CAP FILM 40UF 10% 800V RADIAL" H 3450 3350 50  0001 L CNN "Description"
+F 5 "52" H 3450 3250 50  0001 L CNN "Height"
+F 6 "Panasonic" H 3450 3150 50  0001 L CNN "Manufacturer_Name"
+F 7 "EZP-V80406MTS" H 3450 3050 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 3450 2950 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 3450 2850 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 3450 2750 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 3450 2650 50  0001 L CNN "Arrow Price/Stock"
+	1    3100 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2650 4900 3100 4900
+Wire Wire Line
+	2650 2500 3100 2500
+Wire Wire Line
+	2700 3450 2650 3450
+Wire Wire Line
+	3050 3450 3100 3450
+Wire Wire Line
+	2600 3950 2650 3950
+Wire Wire Line
+	2650 3450 2650 2500
+Connection ~ 2650 3450
+Wire Wire Line
+	2650 3450 2600 3450
+Wire Wire Line
+	2650 3950 2650 4900
+Connection ~ 2650 3950
+Wire Wire Line
+	2650 3950 2700 3950
+Wire Wire Line
+	3050 3950 3100 3950
+Wire Wire Line
+	3100 3950 3100 4900
+Connection ~ 3100 3950
+Wire Wire Line
+	3100 3950 3150 3950
+Connection ~ 3100 4900
+Wire Wire Line
+	3100 4900 4250 4900
+Wire Wire Line
+	3100 3450 3100 2500
+Connection ~ 3100 3450
+Wire Wire Line
+	3100 3450 3150 3450
+Connection ~ 3100 2500
+Wire Wire Line
+	3100 2500 4250 2500
+$Comp
+L IKW15N120H3:IKW15N120H3 Q1
+U 1 1 65194FC6
+P 3950 3150
+F 0 "Q1" H 4380 3246 50  0000 L CNN
+F 1 "IKW15N120H3" H 4380 3155 50  0000 L CNN
+F 2 "IKW15N120H3:TO544P521X1592X2557-3P" H 4400 3050 50  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/IKW15N120H3_Rev1_2G.pdf?folderId=db3a30431c69a49d011c6f86019b00a1&fileId=db3a304325305e6d01258df9167d3741" H 4400 2950 50  0001 L CNN
+F 4 "IGBT Transistors IGBT PRODUCTS" H 4400 2850 50  0001 L CNN "Description"
+F 5 "5.21" H 4400 2750 50  0001 L CNN "Height"
+F 6 "Infineon" H 4400 2650 50  0001 L CNN "Manufacturer_Name"
+F 7 "IKW15N120H3" H 4400 2550 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "726-IKW15N120H3" H 4400 2450 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IKW15N120H3?qs=mzcOS1kGbgf9BeSW3gHzVQ%3D%3D" H 4400 2350 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 4400 2250 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 4400 2150 50  0001 L CNN "Arrow Price/Stock"
+	1    3950 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2850 4250 2750
+Wire Wire Line
+	4300 3350 4250 3350
+Wire Wire Line
+	4250 3350 4250 3500
+Connection ~ 4250 3350
+Connection ~ 4250 3500
+Wire Wire Line
+	3950 3150 3850 3150
+Wire Wire Line
+	3850 3200 3850 3150
+Connection ~ 3850 3150
+Wire Wire Line
+	3850 3150 3650 3150
+Connection ~ 4250 4500
+Connection ~ 4250 4000
+Wire Wire Line
+	4250 4000 4250 3850
+Wire Wire Line
+	4250 4050 4250 4000
+Wire Wire Line
+	4250 4500 4250 4550
+Wire Wire Line
+	4250 4450 4250 4500
+$Comp
+L IKW15N120H3:IKW15N120H3 Q2
+U 1 1 65196DAA
+P 3950 4300
+F 0 "Q2" H 4380 4396 50  0000 L CNN
+F 1 "IKW15N120H3" H 4380 4305 50  0000 L CNN
+F 2 "IKW15N120H3:TO544P521X1592X2557-3P" H 4400 4200 50  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/IKW15N120H3_Rev1_2G.pdf?folderId=db3a30431c69a49d011c6f86019b00a1&fileId=db3a304325305e6d01258df9167d3741" H 4400 4100 50  0001 L CNN
+F 4 "IGBT Transistors IGBT PRODUCTS" H 4400 4000 50  0001 L CNN "Description"
+F 5 "5.21" H 4400 3900 50  0001 L CNN "Height"
+F 6 "Infineon" H 4400 3800 50  0001 L CNN "Manufacturer_Name"
+F 7 "IKW15N120H3" H 4400 3700 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "726-IKW15N120H3" H 4400 3600 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IKW15N120H3?qs=mzcOS1kGbgf9BeSW3gHzVQ%3D%3D" H 4400 3500 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 4400 3400 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 4400 3300 50  0001 L CNN "Arrow Price/Stock"
+	1    3950 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 651C3D30
+P 3800 4550
+F 0 "R2" H 3870 4596 50  0000 L CNN
+F 1 "R" H 3870 4505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3730 4550 50  0001 C CNN
+F 3 "~" H 3800 4550 50  0001 C CNN
+	1    3800 4550
+	1    0    0    -1  
+$EndComp
+Text GLabel 3600 4300 0    50   Input ~ 0
+G2
+Wire Wire Line
+	3950 4300 3800 4300
+Wire Wire Line
+	3800 4400 3800 4300
+Connection ~ 3800 4300
+Wire Wire Line
+	3800 4300 3600 4300
+Text GLabel 10400 2900 1    50   Input ~ 0
+Pulse
+Text GLabel 10400 1150 1    50   Input ~ 0
+Pulse-1
+Wire Wire Line
+	10400 1300 10400 1150
+Wire Wire Line
+	10400 3050 10400 2900
+$Comp
+L 90151-2104:90151-2104 J5
+U 1 1 6518FDF7
+P 9600 1300
+F 0 "J5" H 10000 1565 50  0000 C CNN
+F 1 "90151-2104" H 10000 1474 50  0000 C CNN
+F 2 "90151-2104:RHDR4W64P254_2X2_493X498X870P" H 10250 1400 50  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/901512104_sd.pdf" H 10250 1300 50  0001 L CNN
+F 4 "Headers & Wire Housings C-Grid PCB Conn DR Vt Tn-A 4Ckt" H 10250 1200 50  0001 L CNN "Description"
+F 5 "8.7" H 10250 1100 50  0001 L CNN "Height"
+F 6 "538-90151-2104" H 10250 1000 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/90151-2104?qs=KUIzHt%2Fe91m8kTEY%252BGMYcg%3D%3D" H 10250 900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 10250 800 50  0001 L CNN "Manufacturer_Name"
+F 9 "90151-2104" H 10250 700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9600 1300
+	1    0    0    -1  
+$EndComp
+Text GLabel 10650 3150 2    50   Input ~ 0
+Vcc
+Text GLabel 10550 1400 2    50   Input ~ 0
+Vcc
+Wire Wire Line
+	10550 1400 10400 1400
+Wire Wire Line
+	10650 3150 10400 3150
+$Comp
+L power:GND1 #PWR05
+U 1 1 651C9DAE
+P 9450 3100
+F 0 "#PWR05" H 9450 2850 50  0001 C CNN
+F 1 "GND1" H 9455 2927 50  0000 C CNN
+F 2 "" H 9450 3100 50  0001 C CNN
+F 3 "" H 9450 3100 50  0001 C CNN
+	1    9450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND1 #PWR04
+U 1 1 651CA35D
+P 9400 1350
+F 0 "#PWR04" H 9400 1100 50  0001 C CNN
+F 1 "GND1" H 9405 1177 50  0000 C CNN
+F 2 "" H 9400 1350 50  0001 C CNN
+F 3 "" H 9400 1350 50  0001 C CNN
+	1    9400 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 1300 9400 1300
+Wire Wire Line
+	9400 1300 9400 1350
+Wire Wire Line
+	9600 3050 9450 3050
+Wire Wire Line
+	9450 3050 9450 3100
+Wire Wire Line
+	8850 2050 8700 2050
+Wire Wire Line
+	8850 2150 8700 2150
+Text GLabel 9600 3250 3    50   Input ~ 0
+fault
+Wire Wire Line
+	9600 3150 9600 3250
+Text GLabel 9600 1450 3    50   Input ~ 0
+fault-1
+Wire Wire Line
+	9600 1450 9600 1400
+$Comp
+L 796690-2:796690-2 J9
+U 1 1 65196118
+P 9150 5650
+F 0 "J9" V 9396 5778 50  0000 L CNN
+F 1 "796690-2" V 9487 5778 50  0000 L CNN
+F 2 "796690-2:SHDR2W101P0X500_1X2_1000X1250X1500P" H 9800 5750 50  0001 L CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=796690&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=796690-2" H 9800 5650 50  0001 L CNN
+F 4 "Terminal Blocks 2 POS" H 9800 5550 50  0001 L CNN "Description"
+F 5 "15" H 9800 5450 50  0001 L CNN "Height"
+F 6 "TE Connectivity" H 9800 5350 50  0001 L CNN "Manufacturer_Name"
+F 7 "796690-2" H 9800 5250 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "571-796690-2" H 9800 5150 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/796690-2?qs=pWkNwGaCbnSCL%252BUWKaEztA%3D%3D" H 9800 5050 50  0001 L CNN "Mouser Price/Stock"
+F 10 "796690-2" H 9800 4950 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/796690-2/te-connectivity?region=nac" H 9800 4850 50  0001 L CNN "Arrow Price/Stock"
+	1    9150 5650
+	0    1    1    0   
+$EndComp
+Text GLabel 9050 5500 1    50   Input ~ 0
+Vin
+$Comp
+L power:GND #PWR03
+U 1 1 65197799
+P 9350 5600
+F 0 "#PWR03" H 9350 5350 50  0001 C CNN
+F 1 "GND" H 9355 5427 50  0000 C CNN
+F 2 "" H 9350 5600 50  0001 C CNN
+F 3 "" H 9350 5600 50  0001 C CNN
+	1    9350 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 5500 9050 5650
+Wire Wire Line
+	9150 5650 9150 5550
+Wire Wire Line
+	9150 5550 9350 5550
+Wire Wire Line
+	9350 5550 9350 5600
+$Comp
+L 2-1437667-4:2-1437667-4 J10
+U 1 1 6519E032
+P 1350 3550
+F 0 "J10" H 1642 3185 50  0000 C CNN
+F 1 "2-1437667-4" H 1642 3276 50  0000 C CNN
+F 2 "2-1437667-4:SHDRRA2W132P0X826_1X2_1816X1270X1372P" H 2000 3650 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/TE-Connectivity-2-1437667-4_C306200.pdf" H 2000 3550 50  0001 L CNN
+F 4 "Conn Barrier Strip 2 POS 8.26mm Solder ST Thru-Hole - Bulk" H 2000 3450 50  0001 L CNN "Description"
+F 5 "13.716" H 2000 3350 50  0001 L CNN "Height"
+F 6 "TE Connectivity" H 2000 3250 50  0001 L CNN "Manufacturer_Name"
+F 7 "2-1437667-4" H 2000 3150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 2000 3050 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 2000 2950 50  0001 L CNN "Mouser Price/Stock"
+F 10 "2-1437667-4" H 2000 2850 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/2-1437667-4/te-connectivity" H 2000 2750 50  0001 L CNN "Arrow Price/Stock"
+	1    1350 3550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1750 3400 1350 3400
+Wire Wire Line
+	1350 3400 1350 3450
+Wire Wire Line
+	1350 3550 1350 3650
+Wire Wire Line
+	1350 3650 1750 3650
+Text GLabel 4550 2750 2    50   Input ~ 0
+Desat-1
+Wire Wire Line
+	4550 2750 4250 2750
+Connection ~ 4250 2750
+Wire Wire Line
+	4250 2750 4250 2650
+Text GLabel 10550 2150 2    50   Input ~ 0
+Desat-1
+Wire Wire Line
+	10550 2150 10400 2150
+Wire Wire Line
+	4400 4850 4250 4850
+Connection ~ 4250 4850
+Wire Wire Line
+	4250 4850 4250 4900
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 65199192
+P 800 800
+F 0 "H1" H 900 846 50  0000 L CNN
+F 1 "MountingHole" H 900 755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 800 800 50  0001 C CNN
+F 3 "~" H 800 800 50  0001 C CNN
+	1    800  800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6519954A
+P 800 1150
+F 0 "H2" H 900 1196 50  0000 L CNN
+F 1 "MountingHole" H 900 1105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 800 1150 50  0001 C CNN
+F 3 "~" H 800 1150 50  0001 C CNN
+	1    800  1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 65199809
+P 800 1550
+F 0 "H3" H 900 1596 50  0000 L CNN
+F 1 "MountingHole" H 900 1505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 800 1550 50  0001 C CNN
+F 3 "~" H 800 1550 50  0001 C CNN
+	1    800  1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 65199AA2
+P 800 1950
+F 0 "H4" H 900 1996 50  0000 L CNN
+F 1 "MountingHole" H 900 1905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 800 1950 50  0001 C CNN
+F 3 "~" H 800 1950 50  0001 C CNN
+	1    800  1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2-1437667-4:2-1437667-4 J11
+U 1 1 651A8D3D
+P 5250 3000
+F 0 "J11" H 5542 2635 50  0000 C CNN
+F 1 "2-1437667-4" H 5542 2726 50  0000 C CNN
+F 2 "2-1437667-4:SHDRRA2W132P0X826_1X2_1816X1270X1372P" H 5900 3100 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/TE-Connectivity-2-1437667-4_C306200.pdf" H 5900 3000 50  0001 L CNN
+F 4 "Conn Barrier Strip 2 POS 8.26mm Solder ST Thru-Hole - Bulk" H 5900 2900 50  0001 L CNN "Description"
+F 5 "13.716" H 5900 2800 50  0001 L CNN "Height"
+F 6 "TE Connectivity" H 5900 2700 50  0001 L CNN "Manufacturer_Name"
+F 7 "2-1437667-4" H 5900 2600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 5900 2500 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 5900 2400 50  0001 L CNN "Mouser Price/Stock"
+F 10 "2-1437667-4" H 5900 2300 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/2-1437667-4/te-connectivity" H 5900 2200 50  0001 L CNN "Arrow Price/Stock"
+	1    5250 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2-1437667-4:2-1437667-4 J12
+U 1 1 651AA400
+P 5250 4350
+F 0 "J12" H 5542 3985 50  0000 C CNN
+F 1 "2-1437667-4" H 5542 4076 50  0000 C CNN
+F 2 "2-1437667-4:SHDRRA2W132P0X826_1X2_1816X1270X1372P" H 5900 4450 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/TE-Connectivity-2-1437667-4_C306200.pdf" H 5900 4350 50  0001 L CNN
+F 4 "Conn Barrier Strip 2 POS 8.26mm Solder ST Thru-Hole - Bulk" H 5900 4250 50  0001 L CNN "Description"
+F 5 "13.716" H 5900 4150 50  0001 L CNN "Height"
+F 6 "TE Connectivity" H 5900 4050 50  0001 L CNN "Manufacturer_Name"
+F 7 "2-1437667-4" H 5900 3950 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 5900 3850 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 5900 3750 50  0001 L CNN "Mouser Price/Stock"
+F 10 "2-1437667-4" H 5900 3650 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/2-1437667-4/te-connectivity" H 5900 3550 50  0001 L CNN "Arrow Price/Stock"
+	1    5250 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3000 5250 2650
+Wire Wire Line
+	5250 2650 4250 2650
+Connection ~ 4250 2650
+Wire Wire Line
+	4250 2650 4250 2500
+Wire Wire Line
+	5250 3100 5250 3500
+Wire Wire Line
+	5250 3500 4250 3500
+Wire Wire Line
+	5250 4450 5250 4550
+Wire Wire Line
+	5250 4550 4250 4550
+Connection ~ 4250 4550
+Wire Wire Line
+	4250 4550 4250 4700
+Wire Wire Line
+	4250 4000 5250 4000
+Wire Wire Line
+	5250 4000 5250 4350
+$Comp
+L RS01060R00FB12:RS01060R00FB12 R1
+U 1 1 651F9462
+P 1750 2500
+F 0 "R1" H 2100 2725 50  0000 C CNN
+F 1 "RS01060R00FB12" H 2100 2634 50  0000 C CNN
+F 2 "RS01060R00FB12:RESAD8333W107L4521D953" H 2300 2550 50  0001 L CNN
+F 3 "https://www.vishay.com/docs/30204/rsns.pdf" H 2300 2450 50  0001 L CNN
+F 4 "Res Wirewound 60 Ohm 1% 10W +/-20ppm/C Ceramic Hi Temp Sil AXL Thru-Hole Bulk" H 2300 2350 50  0001 L CNN "Description"
+F 5 "" H 2300 2250 50  0001 L CNN "Height"
+F 6 "Vishay" H 2300 2150 50  0001 L CNN "Manufacturer_Name"
+F 7 "RS01060R00FB12" H 2300 2050 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 2300 1950 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 2300 1850 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 2300 1750 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 2300 1650 50  0001 L CNN "Arrow Price/Stock"
+	1    1750 2500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

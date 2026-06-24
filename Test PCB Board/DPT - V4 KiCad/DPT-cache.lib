@@ -1,0 +1,226 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 2-1437667-4_2-1437667-4
+#
+DEF 2-1437667-4_2-1437667-4 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "2-1437667-4_2-1437667-4" 650 200 50 H V L CNN
+F2 "SHDRRA2W132P0X826_1X2_1816X1270X1372P" 650 100 50 H I L CNN
+F3 "https://datasheet.lcsc.com/szlcsc/TE-Connectivity-2-1437667-4_C306200.pdf" 650 0 50 H I L CNN
+F4 "Conn Barrier Strip 2 POS 8.26mm Solder ST Thru-Hole - Bulk" 650 -100 50 H I L CNN "Description"
+F5 "13.716" 650 -200 50 H I L CNN "Height"
+F6 "TE Connectivity" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "2-1437667-4" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "2-1437667-4" 650 -700 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/2-1437667-4/te-connectivity" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 796690-2_796690-2
+#
+DEF 796690-2_796690-2 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "796690-2_796690-2" 650 200 50 H V L CNN
+F2 "SHDR2W101P0X500_1X2_1000X1250X1500P" 650 100 50 H I L CNN
+F3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=796690&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=796690-2" 650 0 50 H I L CNN
+F4 "Terminal Blocks 2 POS" 650 -100 50 H I L CNN "Description"
+F5 "15" 650 -200 50 H I L CNN "Height"
+F6 "TE Connectivity" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "796690-2" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "571-796690-2" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/796690-2?qs=pWkNwGaCbnSCL%252BUWKaEztA%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "796690-2" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/796690-2/te-connectivity?region=nac" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# 90151-2104_90151-2104
+#
+DEF 90151-2104_90151-2104 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "90151-2104_90151-2104" 650 200 50 H V L CNN
+F2 "RHDR4W64P254_2X2_493X498X870P" 650 100 50 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/901512104_sd.pdf" 650 0 50 H I L CNN
+F4 "Headers & Wire Housings C-Grid PCB Conn DR Vt Tn-A 4Ckt" 650 -100 50 H I L CNN "Description"
+F5 "8.7" 650 -200 50 H I L CNN "Height"
+F6 "538-90151-2104" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Molex/90151-2104?qs=KUIzHt%2Fe91m8kTEY%252BGMYcg%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "90151-2104" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 800 0 200 L 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 4 4 800 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# EZP-V80406MTS_EZP-V80406MTS
+#
+DEF EZP-V80406MTS_EZP-V80406MTS C 0 30 Y Y 1 F N
+F0 "C" 350 300 50 H V L CNN
+F1 "EZP-V80406MTS_EZP-V80406MTS" 350 200 50 H V L CNN
+F2 "EZPV80406MTS" 350 100 50 H I L CNN
+F3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDL0000/RDL0000C251.pdf" 350 0 50 H I L CNN
+F4 "CAP FILM 40UF 10% 800V RADIAL" 350 -100 50 H I L CNN "Description"
+F5 "52" 350 -200 50 H I L CNN "Height"
+F6 "Panasonic" 350 -300 50 H I L CNN "Manufacturer_Name"
+F7 "EZP-V80406MTS" 350 -400 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 100 0 220 0 N
+P 2 0 1 6 100 50 100 -50 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 400 0 280 0 N
+P 2 0 1 6 400 50 400 -50 N
+X ~ 1 0 50 100 R 50 50 0 0 P
+X ~ 2 500 50 100 L 50 50 0 0 P
+X ~ 3 0 -50 100 R 50 50 0 0 P
+X ~ 4 500 -50 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# IKW15N120H3_IKW15N120H3
+#
+DEF IKW15N120H3_IKW15N120H3 Q 0 30 Y Y 1 F N
+F0 "Q" 450 100 50 H V L CNN
+F1 "IKW15N120H3_IKW15N120H3" 450 0 50 H V L CNN
+F2 "TO544P521X1592X2557-3P" 450 -100 50 H I L CNN
+F3 "https://www.infineon.com/dgdl/IKW15N120H3_Rev1_2G.pdf?folderId=db3a30431c69a49d011c6f86019b00a1&fileId=db3a304325305e6d01258df9167d3741" 450 -200 50 H I L CNN
+F4 "IGBT Transistors IGBT PRODUCTS" 450 -300 50 H I L CNN "Description"
+F5 "5.21" 450 -400 50 H I L CNN "Height"
+F6 "Infineon" 450 -500 50 H I L CNN "Manufacturer_Name"
+F7 "IKW15N120H3" 450 -600 50 H I L CNN "Manufacturer_Part_Number"
+F8 "726-IKW15N120H3" 450 -700 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IKW15N120H3?qs=mzcOS1kGbgf9BeSW3gHzVQ%3D%3D" 450 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+C 250 50 150 0 1 10 N
+C 300 -60 10 0 1 15 N
+C 300 160 10 0 1 15 N
+P 2 0 1 6 230 -16 230 16 N
+P 2 0 1 6 230 0 300 -40 N
+P 2 0 1 6 230 34 230 66 N
+P 2 0 1 6 230 50 300 10 N
+P 2 0 1 6 230 84 230 116 N
+P 2 0 1 6 230 86 230 118 N
+P 2 0 1 6 300 -40 300 -100 N
+P 2 0 1 6 300 140 230 100 N
+P 2 0 1 6 300 140 300 200 N
+P 2 0 1 6 320 70 360 70 N
+P 3 0 1 6 100 0 200 0 200 100 N
+P 3 0 1 6 340 30 340 -60 300 -60 N
+P 3 0 1 6 340 70 340 160 300 160 N
+P 4 0 1 10 260 -30 270 -10 300 -40 260 -30 F
+P 4 0 1 10 270 110 260 130 230 100 270 110 F
+P 4 0 1 10 340 70 320 30 360 30 340 70 F
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 300 300 100 D 50 50 0 0 P
+X ~ 3 300 -200 100 U 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole
+#
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# RS01060R00FB12_RS01060R00FB12
+#
+DEF RS01060R00FB12_RS01060R00FB12 R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "RS01060R00FB12_RS01060R00FB12" 550 150 50 H V L CNN
+F2 "RESAD8333W107L4521D953" 550 50 50 H I L CNN
+F3 "https://www.vishay.com/docs/30204/rsns.pdf" 550 -50 50 H I L CNN
+F4 "Res Wirewound 60 Ohm 1% 10W +/-20ppm/C Ceramic Hi Temp Sil AXL Thru-Hole Bulk" 550 -150 50 H I L CNN "Description"
+F5 "Vishay" 550 -350 50 H I L CNN "Manufacturer_Name"
+F6 "RS01060R00FB12" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# S1751-46R_S1751-46R
+#
+DEF S1751-46R_S1751-46R TP 0 30 Y Y 1 F N
+F0 "TP" 650 300 50 H V L CNN
+F1 "S1751-46R_S1751-46R" 650 200 50 H V L CNN
+F2 "S175146R" 650 100 50 H I L CNN
+F3 "https://cdn.harwin.com/pdfs/S1751R.pdf" 650 0 50 H I L CNN
+F4 "EZ_Boardware SMT Test Point 2.0mm high S1751-46R, Brass Grounding Contact Used with Surface Mount, 3.25 x 2 x 1.65" 650 -100 50 H I L CNN "Description"
+F5 "2" 650 -200 50 H I L CNN "Height"
+F6 "Harwin" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "S1751-46R" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "855-S1751-46R" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Harwin/S1751-46R?qs=l6ZPVqNVZb71wETAKrfRig%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -100 200 -100 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND1
+#
+DEF power_GND1 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND1" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND1 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library
